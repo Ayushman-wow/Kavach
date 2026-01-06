@@ -211,6 +211,8 @@ ________________________________________
 ________________________________________
 # System Architecture Diagram
 
+
+
 <img width="940" height="592" alt="image" src="https://github.com/user-attachments/assets/ff845386-9acf-4f52-be7f-6eae1f276579" />
 
 
@@ -222,7 +224,20 @@ ________________________________________
 
 
 
+
+
+
+
+
+
 # UI Screenshots
+
+
+
+
+
+
+
 
 
 
