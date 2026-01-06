@@ -46,15 +46,15 @@ Kavach/
 │
 ├── dataset/
 
-│   └── kaggle_dataset.csv
+│   └── rockfall_mines.csv
 
 ├── model/
 
-│   └── trained_model.pkl
+│   └── rockfall_model.pkl
 
 ├── dashboard/
 
-│   └── app.py
+│   └── model_train.py
 
 ├── database/
 
