@@ -24,15 +24,15 @@ The system takes eight input features, exactly as shown in the dashboard:
 -	Rainfall
 
 -	Rock Strength
--	
+	
 -	Seismic Events
--	
+	
 -	Soil Moisture
--	
+	
 -	Crack Width
--	
+	
 -	Mine Depth
--	
+	
 -	Past Incidents
 ________________________________________
 ##Output Predictions
