@@ -139,7 +139,7 @@ ________________________________________
 ##Physics Validation
 
 -	Input parameters are grounded in geotechnical and physical relevance
--	
+	
 -	Factors such as slope angle, rainfall, and rock strength reflect real-world conditions
 ________________________________________
 ##Example Usage
@@ -168,7 +168,7 @@ ________________________________________
 ________________________________________
 ##Visualization
 
-	- Risk trend graphs
+- Risk trend graphs
 
 -	Environmental condition summaries
 
