@@ -208,13 +208,19 @@ ________________________________________
 ##System Architecture Diagram
 
 <img width="940" height="592" alt="image" src="https://github.com/user-attachments/assets/ff845386-9acf-4f52-be7f-6eae1f276579" />
+
+
  UI Screenshots
+ 
  
 <img width="1004" height="560" alt="image" src="https://github.com/user-attachments/assets/44a32956-c7a1-4be3-adac-82890fe4edd9" />
 
-<img width="1004" height="610" alt="image" src="https://github.com/user-attachments/assets/acad63ea-ebf3-4337-a49f-607fe583b37b" />
+
+<img width="1004" height="610" alt="image" src="https://github.com/user-attachments/assets/acad63ea-ebf3-4337-a49f-607fe583b37b" 
+	/>
 
 <img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/ec1839d3-fa42-453b-a838-b61bb268e4b7" />
+
 
 <img width="1045" height="678" alt="image" src="https://github.com/user-attachments/assets/d7508cfc-e582-460f-ae95-079621961eae" />
 
