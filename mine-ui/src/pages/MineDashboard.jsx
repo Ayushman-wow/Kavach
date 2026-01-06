@@ -35,7 +35,7 @@ export default function MineDashboard({ setPage }) {
   // --- WORKER STATE MANANGEMENT ---
   // --- WORKER STATE MANANGEMENT ---
   const [workers, setWorkers] = useState([]);
-  const API_URL = "http://localhost:8000";
+  const API_URL = "https://kavach-backend.onrender.com";
 
   // Load workers from MongoDB on mount or mine change
   useEffect(() => {

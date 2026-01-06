@@ -9,7 +9,7 @@ import autoTable from "jspdf-autotable";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, Filler);
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://kavach-backend.onrender.com";
 
 export default function TrendGraph() {
   const { activeMine } = useContext(MineContext);

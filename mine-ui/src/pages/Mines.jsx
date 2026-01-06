@@ -3,7 +3,7 @@ import { MineContext } from "../context/MineContext";
 import { FiMapPin, FiAlertCircle, FiArrowRight } from "react-icons/fi";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://kavach-backend.onrender.com";
 
 export default function Mines({ setPage }) {
   const { setActiveMine } = useContext(MineContext);

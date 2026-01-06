@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { FiFileText, FiRefreshCw, FiTrash2, FiXCircle } from "react-icons/fi";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://kavach-backend.onrender.com";
 
 export default function Logs() {
   const [logs, setLogs] = useState([]);
