@@ -1,6 +1,12 @@
 
 // Configuration for the application
-// Uses Vite's import.meta.env to access environment variables
-// Falls back to localhost if not set (for local development without .env)
 
-export const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// robustly determine backend URL based on current hostname
+// This ensures that when deployed (not localhost), it ALWAYS uses the Render backend
+// regardless of environment variables.
+
+const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+
+export const API_URL = isLocal
+    ? "http://localhost:8000"
+    : "https://kavach-backend-clys.onrender.com";
