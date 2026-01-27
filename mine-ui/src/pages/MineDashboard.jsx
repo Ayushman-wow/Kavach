@@ -1,5 +1,6 @@
 import { useContext, useState, useEffect } from "react";
 import { MineContext } from "../context/MineContext";
+import { API_URL } from "../config";
 import { FiActivity, FiMapPin, FiCpu, FiBarChart2, FiMap, FiUsers, FiArrowLeft, FiAlertTriangle, FiZap, FiTruck, FiAlertOctagon } from "react-icons/fi";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
@@ -35,7 +36,7 @@ export default function MineDashboard({ setPage }) {
   // --- WORKER STATE MANANGEMENT ---
   // --- WORKER STATE MANANGEMENT ---
   const [workers, setWorkers] = useState([]);
-  const API_URL = "https://kavach-backend.onrender.com";
+  // --- WORKER STATE MANANGEMENT ---
 
   // Load workers from MongoDB on mount or mine change
   useEffect(() => {

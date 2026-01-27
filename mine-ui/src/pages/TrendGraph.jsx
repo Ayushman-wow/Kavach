@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { MineContext } from "../context/MineContext";
+import { API_URL } from "../config";
 import { Line, Bar } from "react-chartjs-2";
 import { FiTrendingUp, FiActivity, FiClock, FiTrash2, FiLayers, FiDownload } from "react-icons/fi";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, Filler } from "chart.js";
@@ -9,7 +10,7 @@ import autoTable from "jspdf-autotable";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, Filler);
 
-const API_URL = "https://kavach-backend.onrender.com";
+
 
 export default function TrendGraph() {
   const { activeMine } = useContext(MineContext);
