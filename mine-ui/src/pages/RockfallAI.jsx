@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import axios from "axios";
+import { API_URL } from "../config";
 import { FiActivity, FiCpu, FiBarChart2 } from "react-icons/fi";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -62,7 +63,7 @@ export default function RockfallAI({ onRiskUpdate }) {
         mine_name: mine.name
       };
 
-      const res = await axios.post("http://127.0.0.1:8000/predict", payload);
+      const res = await axios.post(`${API_URL}/predict`, payload);
 
       const result = res.data.risk_level;
       const score = res.data.risk_score;
