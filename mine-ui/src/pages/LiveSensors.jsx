@@ -1,4 +1,5 @@
 import { useEffect, useState, useContext } from "react";
+import { API_URL } from "../config";
 import { MineContext } from "../context/MineContext";
 import { FiActivity, FiThermometer, FiWind, FiZap, FiDroplet } from "react-icons/fi";
 
@@ -27,7 +28,7 @@ export default function LiveSensors() {
   useEffect(() => {
     const fetchSensors = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/sensors/live");
+        const res = await fetch(`${API_URL}/sensors/live`);
         if (res.ok) {
           const data = await res.json();
           setData(data);
